@@ -1,0 +1,71 @@
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link heref="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono&amp;display=swap" rel="stylesheet" />
+</head>
+<body>
+	<div class="container">
+	<div class="intro">
+	<img clss="prfile-picture1" &lt;img src="https://media-exp1.licdn.com/dms/image/C5603AQGbjDPqMryajw/profile-displayphoto-shrink_200_200/0?e=1586995200&v=beta&t=5SYYXNwSSfiYZULKHGsc-AmGNy9pAknLgHyRhrKzDME" />;
+	<h1>Angelina Talley</h1>
+	<h3>Self Employed Web Developer</h3>
+	<p class="quote">{{ Pause and ponder }}</p>
+	<link rel="stylesheet" href="styles.css">
+   </div>
+
+	<div class="about-grid">
+		<div class="i-am">
+			<h3>I am</h3>
+	   		<ul class="about-list">
+			   	<li>An engineer</li>
+			   	<li>A reader</li>
+			   	<li>A hobby dancer</li>
+	   		</ul>
+		</div>
+	<div class="i-like">
+		<h3>I like to</h3>
+		<ul class="about-list">
+			<li>Meet new people</li>
+			<li>Write coreography</li>
+			<li>Eat Icecream</li>
+		</ul>
+	</div>
+</div>
+
+<div>
+	<h3 class="projects-heading">My Projects</h3>
+	<div class="projects-grid">
+	<img class="project-image" src="images/project-1.jpg"/>
+	<img class="project-image" src="images/project-2.jpg" />
+	<img class="project-image" src="images/project-3.jpg" />
+	<img class="project-image" src="images/project-4.jpg" /></div></div>
+
+	<div class="grid-table">
+	<div>1</div>
+	<div>2</div>
+	<div>3</div>
+	<div>4</div>
+	<div>5</div>
+	<div>6</div>
+</div>
+
+<div class="links-and-contact">
+	<div class="links">
+	<h3>Links</h3>
+	<ul class="links-list">
+		<li>
+			<a href="https://www.linkedin.com/in/angelina-talley-37ba0017a/">Linkedin</a>
+
+<div>
+	<form action="#">
+		<label for "email">
+			Email: <input type="email" id="email" placeholder="Enter your email" />
+		</label>
+		<label for="message">
+			Message: <textarea id="message">Your Message</textarea>
+		</label>
+		<input type="submit" valid="Send Message" />
+	</form>
+	<input type="submit" value="Send Message" id="Submit-button" />
+</div>
+<script src="script.js"></script>
+</body>
